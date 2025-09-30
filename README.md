@@ -287,7 +287,7 @@ Numerous shrines: The complex contains several smaller shrines, including one de
 ![alt text](<Screenshot (66).png>)
 ![alt text](<Screenshot (67).png>)
 ![alt text](<Screenshot (68).png>)
-![alt text](<Screenshot (69).png>)
+![alt text](<Screenshot (71).png>)
 ![alt text](<Screenshot (70).png>)
 # RESULT
 The program for implementing image maps using HTML is executed successfully.
