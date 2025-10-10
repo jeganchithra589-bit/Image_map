@@ -281,6 +281,43 @@ Numerous shrines: The complex contains several smaller shrines, including one de
 </html>
 
 
+url.py:
+
+from django.contrib import admin
+from django.urls import path
+from mapapp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('city/',views.city),
+    path('college/',views.college),
+    path('ground/',views.ground),
+    path('map/',views.map),
+    path('park/',views.park),
+    path('temple/',views.temple),
+
+]
+
+views.py:
+
+from django.shortcuts import render
+def fun(request):
+    return render (request,'map.html')
+def city(request):
+    return render (request,'city.html')
+def college(request):
+    return render (request,'college.html')
+def ground(request):
+    return render (request,'ground.html')
+def park(request):
+    return render (request,'park.html')
+def temple(request):
+    return render (request,'temple.html')
+def map(request):
+    return render (request,'map')
+
+
+
 ```
 # OUTPUT
 ![alt text](<Screenshot (65).png>)
